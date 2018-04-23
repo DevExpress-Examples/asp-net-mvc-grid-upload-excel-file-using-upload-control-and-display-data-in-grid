@@ -1,0 +1,14 @@
+@model System.Data.DataTable
+
+@using (Html.BeginForm("UploadControlUpload", "Home", FormMethod.Post)) {
+    @Html.DevExpress().UploadControl(settings => {
+    settings.Name = "UploadControlFile";
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "UploadControlUpload" };
+    settings.ShowUploadButton = true;
+    settings.ShowProgressPanel = true;
+    settings.NullText = "Click here to browse files...";
+    settings.ClientSideEvents.FileUploadComplete = "function(s, e) { GridView1.PerformCallback({ path: e.callbackData}); }";
+}).GetHtml()
+}
+
+@Html.Partial("GridViewPartial", Model)

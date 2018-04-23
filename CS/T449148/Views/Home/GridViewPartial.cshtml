@@ -1,0 +1,10 @@
+﻿@model System.Data.DataTable
+
+    @Html.DevExpress().GridView(
+    settings =>
+    {
+        settings.Name = "GridView1";
+        settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewPartial" };
+        settings.SettingsPager.PageSize = 100;
+        settings.SettingsPager.Mode = GridViewPagerMode.ShowAllRecords;
+    }).Bind(Model).GetHtml()

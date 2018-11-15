@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/T449148/Controllers/HomeController.cs)
+* [Model.cs](./CS/T449148/Models/Model.cs)
+* [GridViewPartial.cshtml](./CS/T449148/Views/Home/GridViewPartial.cshtml)
+* [Index.cshtml](./CS/T449148/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # GridView - How to upload an Excel file via UploadControl and display its data in a grid
 
 

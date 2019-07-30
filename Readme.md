@@ -8,7 +8,7 @@
 <!-- default file list end -->
 # GridView - How to upload an Excel file via UploadControl and display its data in a grid
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t449148)**
+**[[Run Online]](https://codecentral.devexpress.com/t449148/)**
 <!-- run online end -->
 
 

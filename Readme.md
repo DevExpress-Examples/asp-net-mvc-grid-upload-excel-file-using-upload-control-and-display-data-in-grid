@@ -36,7 +36,7 @@ public class UploadControlSettings {
 Handle the upload control's [FileUploadColmplete](https://docs.devexpress.com/AspNet/js-ASPxClientUploadControl.FileUploadComplete) event. In the handler, call the grid's `PerformCallback` method to send a callback to the server and pass the file's path as a parameter.
 
 ```cshtml
-    settings.ClientSideEvents.FileUploadComplete = "function(s, e) { GridView1.PerformCallback({ path: e.callbackData}); }";
+settings.ClientSideEvents.FileUploadComplete = "function(s, e) { GridView1.PerformCallback({ path: e.callbackData}); }";
 ```
 
 To display the file's data in the grid, use the approach illustrated in the following example: [Grid View for ASp.NET MVC - How to bind the grid to an excel file](https://github.com/DevExpress-Examples/how-to-bind-gridview-with-excel-file-e4458).

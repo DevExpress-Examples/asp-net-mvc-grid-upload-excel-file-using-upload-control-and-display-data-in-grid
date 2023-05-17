@@ -3,11 +3,11 @@
 **[[Run Online]](https://codecentral.devexpress.com/t449148/)**
 <!-- run online end -->
 
-This example demonstrates how to use an upload control to upload an excel file to the server and handle the control's `FileUploadComplete` event to display the file's data in the grid.
+This example demonstrates how to use an upload control to upload an Excel file to the server and handle the control's `FileUploadComplete` event to display the file's data in the grid.
 
 ## Overview
 
-Create an upload control, specify its `CallbackRouteValues` action, and call the [GetUploadedFiles](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.UploadControlExtension.GetUploadedFiles.overloads) method to upload an excel file. Save the file's path and use the `e.CallbackData` argument property to pass the path to the client.
+Create an upload control, specify its `CallbackRouteValues` action, and call the [GetUploadedFiles](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.UploadControlExtension.GetUploadedFiles.overloads) method to upload an Excel file. Save the file's path and use the `e.CallbackData` argument property to pass the path to the client.
 
 ```cs
 public class HomeController : Controller {

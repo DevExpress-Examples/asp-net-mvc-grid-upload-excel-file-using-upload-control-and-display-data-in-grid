@@ -1,4 +1,4 @@
-# Grid View for ASP.NET MVC - How to upload an excel file using an upload control and display the file's data in the grid
+# Grid View for ASP.NET MVC - How to upload an Excel file using an upload control and display the file's data in the grid
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/t449148/)**
 <!-- run online end -->
@@ -39,7 +39,7 @@ Handle the upload control's [FileUploadColmplete](https://docs.devexpress.com/As
 settings.ClientSideEvents.FileUploadComplete = "function(s, e) { GridView1.PerformCallback({ path: e.callbackData}); }";
 ```
 
-To display the file's data in the grid, use the approach illustrated in the following example: [Grid View for ASp.NET MVC - How to bind the grid to an excel file](https://github.com/DevExpress-Examples/how-to-bind-gridview-with-excel-file-e4458).
+To display the file's data in the grid, use the approach illustrated in the following example: [Grid View for ASP.NET MVC - How to bind the grid to an excel file](https://github.com/DevExpress-Examples/how-to-bind-gridview-with-excel-file-e4458).
 
 ## Files to Review
 
@@ -47,3 +47,7 @@ To display the file's data in the grid, use the approach illustrated in the foll
 * [Model.cs](./CS/T449148/Models/Model.cs)
 * [GridViewPartial.cshtml](./CS/T449148/Views/Home/GridViewPartial.cshtml)
 * [Index.cshtml](./CS/T449148/Views/Home/Index.cshtml)
+
+## More Examples
+
+* [Grid View for ASP.NET Web Forms - How to display data from an uploaded Excel file](https://github.com/DevExpress-Examples/aspxgridview-upload-and-display-excel-file)

@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Grid View for ASP.NET MVC - How to upload an Excel file using an upload control and display the file's data in the grid
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128550806/)**
-<!-- run online end -->
 
 This example demonstrates how to use an upload control to upload an Excel file to the server and handle the control's `FileUploadComplete` event to display the file's data in the grid.
 
